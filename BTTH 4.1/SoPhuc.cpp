@@ -143,5 +143,5 @@ bool SoPhuc::operator==(const SoPhuc &sp)
 // Toán tử khác (!=): Kiểm tra 2 số phức có khác biệt nhau hay không
 bool SoPhuc::operator!=(const SoPhuc &sp)
 {
-    return (Thuc != sp.Thuc && Ao != sp.Ao);
+    return (Thuc != sp.Thuc || Ao != sp.Ao);
 }
